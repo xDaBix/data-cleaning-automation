@@ -15,7 +15,7 @@ if uploaded_file is not None:
         st.subheader("🔍 Original Data Preview")
         st.dataframe(df.head())
 
-        # User inputs for cleaning
+        
         st.sidebar.header("Cleaning Options")
 
         all_cols = df.columns.tolist()
@@ -47,7 +47,7 @@ if uploaded_file is not None:
 
         remove_outliers = st.sidebar.checkbox("Remove outliers (IQR method)", value=False)
 
-        # Button to trigger cleaning
+        
         if st.sidebar.button("Clean Data"):
             cleaned_df = clean_data(
                 df,
