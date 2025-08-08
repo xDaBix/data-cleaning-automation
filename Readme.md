@@ -41,9 +41,7 @@ pip install -r requirements.txt
 Run the Streamlit app:
 streamlit run app.py
 
-📸 Demo
 
-![image](<Screenshot 2025-08-08 133132.png>) ![image](<Screenshot 2025-08-08 133052.png>)
 
 
 🤝 Contributing
